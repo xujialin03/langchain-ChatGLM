@@ -123,4 +123,4 @@ with gr.Blocks(css="""
                                   [chatbot, history], api_name="get_knowledge_based_answer")
 
 demo.queue(concurrency_count=3).launch(
-    server_name='0.0.0.0', share=False, inbrowser=False)
+    server_name='0.0.0.0', share=True, inbrowser=False)
